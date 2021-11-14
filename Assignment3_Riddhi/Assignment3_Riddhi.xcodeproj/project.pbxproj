@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		160125642741715E00211011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160125632741715E00211011 /* AppDelegate.swift */; };
+		160125662741715E00211011 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160125652741715E00211011 /* SceneDelegate.swift */; };
+		160125682741715E00211011 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160125672741715E00211011 /* ViewController.swift */; };
+		1601256B2741715E00211011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160125692741715E00211011 /* Main.storyboard */; };
+		1601256D2741716100211011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1601256C2741716100211011 /* Assets.xcassets */; };
+		160125702741716100211011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1601256E2741716100211011 /* LaunchScreen.storyboard */; };
+		1601257B2741716100211011 /* Assignment3_RiddhiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1601257A2741716100211011 /* Assignment3_RiddhiTests.swift */; };
+		160125862741716100211011 /* Assignment3_RiddhiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160125852741716100211011 /* Assignment3_RiddhiUITests.swift */; };
+		160125972741734500211011 /* addImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160125962741734500211011 /* addImageViewController.swift */; };
+		1601259C274174A500211011 /* ImageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1601259B274174A500211011 /* ImageInfo.swift */; };
+		160125A1274174B400211011 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160125A0274174B400211011 /* ImageManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		160125772741716100211011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 160125582741715E00211011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1601255F2741715E00211011;
+			remoteInfo = Assignment3_Riddhi;
+		};
+		160125822741716100211011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 160125582741715E00211011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1601255F2741715E00211011;
+			remoteInfo = Assignment3_Riddhi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		160125602741715E00211011 /* Assignment3_Riddhi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment3_Riddhi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		160125632741715E00211011 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		160125652741715E00211011 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		160125672741715E00211011 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1601256A2741715E00211011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1601256C2741716100211011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1601256F2741716100211011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		160125712741716100211011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160125762741716100211011 /* Assignment3_RiddhiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment3_RiddhiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1601257A2741716100211011 /* Assignment3_RiddhiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment3_RiddhiTests.swift; sourceTree = "<group>"; };
+		1601257C2741716100211011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160125812741716100211011 /* Assignment3_RiddhiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment3_RiddhiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		160125852741716100211011 /* Assignment3_RiddhiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment3_RiddhiUITests.swift; sourceTree = "<group>"; };
+		160125872741716100211011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160125962741734500211011 /* addImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addImageViewController.swift; sourceTree = "<group>"; };
+		1601259B274174A500211011 /* ImageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInfo.swift; sourceTree = "<group>"; };
+		160125A0274174B400211011 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1601255D2741715E00211011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160125732741716100211011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601257E2741716100211011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		160125572741715E00211011 = {
+			isa = PBXGroup;
+			children = (
+				160125622741715E00211011 /* Assignment3_Riddhi */,
+				160125792741716100211011 /* Assignment3_RiddhiTests */,
+				160125842741716100211011 /* Assignment3_RiddhiUITests */,
+				160125612741715E00211011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		160125612741715E00211011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				160125602741715E00211011 /* Assignment3_Riddhi.app */,
+				160125762741716100211011 /* Assignment3_RiddhiTests.xctest */,
+				160125812741716100211011 /* Assignment3_RiddhiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		160125622741715E00211011 /* Assignment3_Riddhi */ = {
+			isa = PBXGroup;
+			children = (
+				160125632741715E00211011 /* AppDelegate.swift */,
+				160125652741715E00211011 /* SceneDelegate.swift */,
+				160125672741715E00211011 /* ViewController.swift */,
+				160125692741715E00211011 /* Main.storyboard */,
+				1601256C2741716100211011 /* Assets.xcassets */,
+				1601256E2741716100211011 /* LaunchScreen.storyboard */,
+				160125712741716100211011 /* Info.plist */,
+				160125962741734500211011 /* addImageViewController.swift */,
+				1601259B274174A500211011 /* ImageInfo.swift */,
+				160125A0274174B400211011 /* ImageManager.swift */,
+			);
+			path = Assignment3_Riddhi;
+			sourceTree = "<group>";
+		};
+		160125792741716100211011 /* Assignment3_RiddhiTests */ = {
+			isa = PBXGroup;
+			children = (
+				1601257A2741716100211011 /* Assignment3_RiddhiTests.swift */,
+				1601257C2741716100211011 /* Info.plist */,
+			);
+			path = Assignment3_RiddhiTests;
+			sourceTree = "<group>";
+		};
+		160125842741716100211011 /* Assignment3_RiddhiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				160125852741716100211011 /* Assignment3_RiddhiUITests.swift */,
+				160125872741716100211011 /* Info.plist */,
+			);
+			path = Assignment3_RiddhiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1601255F2741715E00211011 /* Assignment3_Riddhi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1601258A2741716200211011 /* Build configuration list for PBXNativeTarget "Assignment3_Riddhi" */;
+			buildPhases = (
+				1601255C2741715E00211011 /* Sources */,
+				1601255D2741715E00211011 /* Frameworks */,
+				1601255E2741715E00211011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Assignment3_Riddhi;
+			productName = Assignment3_Riddhi;
+			productReference = 160125602741715E00211011 /* Assignment3_Riddhi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		160125752741716100211011 /* Assignment3_RiddhiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1601258D2741716200211011 /* Build configuration list for PBXNativeTarget "Assignment3_RiddhiTests" */;
+			buildPhases = (
+				160125722741716100211011 /* Sources */,
+				160125732741716100211011 /* Frameworks */,
+				160125742741716100211011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				160125782741716100211011 /* PBXTargetDependency */,
+			);
+			name = Assignment3_RiddhiTests;
+			productName = Assignment3_RiddhiTests;
+			productReference = 160125762741716100211011 /* Assignment3_RiddhiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		160125802741716100211011 /* Assignment3_RiddhiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160125902741716200211011 /* Build configuration list for PBXNativeTarget "Assignment3_RiddhiUITests" */;
+			buildPhases = (
+				1601257D2741716100211011 /* Sources */,
+				1601257E2741716100211011 /* Frameworks */,
+				1601257F2741716100211011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				160125832741716100211011 /* PBXTargetDependency */,
+			);
+			name = Assignment3_RiddhiUITests;
+			productName = Assignment3_RiddhiUITests;
+			productReference = 160125812741716100211011 /* Assignment3_RiddhiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		160125582741715E00211011 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1601255F2741715E00211011 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					160125752741716100211011 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1601255F2741715E00211011;
+					};
+					160125802741716100211011 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1601255F2741715E00211011;
+					};
+				};
+			};
+			buildConfigurationList = 1601255B2741715E00211011 /* Build configuration list for PBXProject "Assignment3_Riddhi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 160125572741715E00211011;
+			productRefGroup = 160125612741715E00211011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1601255F2741715E00211011 /* Assignment3_Riddhi */,
+				160125752741716100211011 /* Assignment3_RiddhiTests */,
+				160125802741716100211011 /* Assignment3_RiddhiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1601255E2741715E00211011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160125702741716100211011 /* LaunchScreen.storyboard in Resources */,
+				1601256D2741716100211011 /* Assets.xcassets in Resources */,
+				1601256B2741715E00211011 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160125742741716100211011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601257F2741716100211011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1601255C2741715E00211011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160125682741715E00211011 /* ViewController.swift in Sources */,
+				1601259C274174A500211011 /* ImageInfo.swift in Sources */,
+				160125642741715E00211011 /* AppDelegate.swift in Sources */,
+				160125A1274174B400211011 /* ImageManager.swift in Sources */,
+				160125972741734500211011 /* addImageViewController.swift in Sources */,
+				160125662741715E00211011 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160125722741716100211011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1601257B2741716100211011 /* Assignment3_RiddhiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601257D2741716100211011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160125862741716100211011 /* Assignment3_RiddhiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		160125782741716100211011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1601255F2741715E00211011 /* Assignment3_Riddhi */;
+			targetProxy = 160125772741716100211011 /* PBXContainerItemProxy */;
+		};
+		160125832741716100211011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1601255F2741715E00211011 /* Assignment3_Riddhi */;
+			targetProxy = 160125822741716100211011 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		160125692741715E00211011 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1601256A2741715E00211011 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1601256E2741716100211011 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1601256F2741716100211011 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		160125882741716200211011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		160125892741716200211011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1601258B2741716200211011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Assignment3_Riddhi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.humber.Assignment3-Riddhi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1601258C2741716200211011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Assignment3_Riddhi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.humber.Assignment3-Riddhi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1601258E2741716200211011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Assignment3_RiddhiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.humber.Assignment3-RiddhiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment3_Riddhi.app/Assignment3_Riddhi";
+			};
+			name = Debug;
+		};
+		1601258F2741716200211011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Assignment3_RiddhiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.humber.Assignment3-RiddhiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment3_Riddhi.app/Assignment3_Riddhi";
+			};
+			name = Release;
+		};
+		160125912741716200211011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Assignment3_RiddhiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.humber.Assignment3-RiddhiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Assignment3_Riddhi;
+			};
+			name = Debug;
+		};
+		160125922741716200211011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Assignment3_RiddhiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.humber.Assignment3-RiddhiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Assignment3_Riddhi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1601255B2741715E00211011 /* Build configuration list for PBXProject "Assignment3_Riddhi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160125882741716200211011 /* Debug */,
+				160125892741716200211011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1601258A2741716200211011 /* Build configuration list for PBXNativeTarget "Assignment3_Riddhi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1601258B2741716200211011 /* Debug */,
+				1601258C2741716200211011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1601258D2741716200211011 /* Build configuration list for PBXNativeTarget "Assignment3_RiddhiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1601258E2741716200211011 /* Debug */,
+				1601258F2741716200211011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		160125902741716200211011 /* Build configuration list for PBXNativeTarget "Assignment3_RiddhiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160125912741716200211011 /* Debug */,
+				160125922741716200211011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 160125582741715E00211011 /* Project object */;
+}
